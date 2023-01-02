@@ -8,7 +8,7 @@
     margin-left: 20px;
 }
 .header__buscador{
-    display: block;
+    display: inline;
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -27,6 +27,7 @@
     margin-block-start: 0%;
 }
 .header__menu{
+    display: none;
     margin-top: 20px;
     list-style: none;
     padding: 0;
@@ -41,4 +42,24 @@
     background-color: blue;
     color:white;
     border-radius: 5px;
+}
+
+/*TABLET*/
+@media(min-width:361px){
+    .header__menu{
+        display: block;
+    }
+    .header_burger-menu{
+        display: none;
+    }
+}
+
+/*DESKTOP*/
+@media(min-width:769px){
+    .header__menu{
+        display: block;
+    }
+    .header_burger-menu{
+        display: none;
+    }
 }
