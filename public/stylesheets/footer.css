@@ -1,0 +1,41 @@
+.footer__section{
+text-align: center;
+margin-top: 50px;
+}
+#icon-card{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#icon-gift{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#icon-user{
+    color: var(--celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.footer__section__title{
+    font-size: var(--titulares);
+    color: var(--grisOscuro);
+
+}
+.footer__section__text{
+    font-size: var(--descripciones);
+    color: var(--grisOscuro);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footer__section__text--credit{
+    font-size: var(--texto);
+    color: var(--grisOscuro);
+    font-size: var(--descripciones);
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+.header__banner{
+    width: 100%;
+}

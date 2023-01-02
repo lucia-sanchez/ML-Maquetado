@@ -1,3 +1,44 @@
 .header{
     background-color: var(--amarillo);
+    
+}
+.header__logo{
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header__buscador{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header_boton-buscador{
+    display: inline-block;
+    width: auto;
+    margin-left: 20px;
+
+}
+.header__text{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size:var(--texto);
+}
+.header__contenedor__menu{
+    margin-block-start: 0%;
+}
+.header__menu{
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    font-size:var(--texto);
+}
+.header_burger-menu{
+    text-align: center;
+    margin-left: 150px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
 }
