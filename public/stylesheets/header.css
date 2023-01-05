@@ -2,21 +2,32 @@
     background-color: var(--amarillo);
     
 }
+.header__nav__container{
+display: flex;
+justify-content: space-between;
+}
+
 .header__logo{
     width: 40%;
+    flex-grow: 1;
     margin-top: 20px;
     margin-left: 20px;
 }
 .header__buscador{
+    width: 50%;
+    height: 40px;
+    flex-grow: 1;
     display: inline;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 3px;
 }
 .header_boton-buscador{
     display: inline-block;
     width: auto;
-    margin-left: 20px;
-
+    margin-left: 0px;
+    border: none;
 }
 .header__text{
     margin-top: 20px;
@@ -34,11 +45,15 @@
     font-size:var(--texto);
 }
 .header_burger-menu{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 150px;
-    padding: 5px;
-    width: 20px;
-    height: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: 25px;
+    height: 25px;
     background-color: blue;
     color:white;
     border-radius: 5px;
