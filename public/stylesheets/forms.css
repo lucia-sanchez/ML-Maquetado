@@ -1,0 +1,95 @@
+.register__title{
+    display: flex;
+    gap: 5px;
+    color: var(--celeste);
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.register__title i{
+    border: 2px solid var(--celeste);
+    border-radius: 50%;
+    width: auto;
+    height: 100%;
+    padding: 3px;
+}
+form input{
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: var(--celeste);
+}
+.form__conteiner{
+    padding: 20px;
+    width: 100%;
+}
+.register__form--radio input{
+    width: 30px;
+}
+.register__form{
+     display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+form h3{
+     width: 100%;
+     margin-top: 10px;
+    
+}
+.register__form--radio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.register__form--chechkbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    }
+.register__form--chechkbox h3{
+    width: 100%;
+    margin-top:  5px;
+    }
+.register__form--chechkbox input{
+    width: 15%;
+}
+.register__form--chechkbox label{
+    width:70%
+}
+.register__form--password{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.register__form--buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    
+}
+.button--enviar,.button--reset{
+    background-color: var(--celeste);
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.button--enviar a{
+    text-decoration: none;
+    color: white;
+    
+    }

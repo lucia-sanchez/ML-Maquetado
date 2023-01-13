@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f9457e77c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <title>Login</title>
 </head>
 <body>
-    
+       <div class="login__title">
+            <i class="fa-solid fa-user"></i>
+            <h2>Iniciar Sesión</h2>
+        </div>
+    <form action="">
+        <div class="form__conteiner">
+        <label for="email">Email
+            <input type="email" name="email" id="email" placeholder="Ingrese su e-mail" minlength="8" required>
+            </label>
+            <label for="password" class="register__form--password"> Contraseña
+                <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" minlength="8"  required>
+            </label>
+            <button type="submit" class="button--enviar">
+                <a href="/">Enviar</a>
+            </button>
+        </div>
+    </form>
 </body>
 </html>

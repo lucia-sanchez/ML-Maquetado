@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f9457e77c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <title>Registro</title>
 </head>
 <body>
-    
+    <div class="form__conteiner">
+        <div class="register__title">
+            <i class="fa-solid fa-user"></i>
+            <h2>Registro</h2>
+            </div>
+    <form action="">
+        <label for="name">Nombre y Apellido
+        <input type="text" name="name" id="name" placeholder="Ingrese Nombre y Apellido" required>
+        </label>
+        <label for="email">Email
+        <input type="email" name="email" id="email" placeholder="Ingrese su e-mail" required>
+        </label>
+        <label for="date">Fecha de nacimiento
+        <input type="date" name="date" id="date" required>
+        </label> 
+        <label for="adress">Dirección
+        <input type="text" name="adress" id="adress" placeholder="Ingrese su Dirección" required>
+        </label>
+        <label for="user" class="register__form--radio">
+            <h3>Perfil de usuario</h3>
+            <input type="radio" name="user" value="Comprador" checked>Comprador
+            <input type="radio" name="user" value="Vendedor">Vendedor
+        </label>
+        <label for="intereses" class="register__form--chechkbox">
+            <h3>Intereses</h3>
+            <input type="checkbox" value="Electro"> 
+            <label for="intereses">Electro</label>
+            <input type="checkbox" value="Moda"> 
+            <label for="intereses">Moda</label>
+            <input type="checkbox" value="Hogar"> 
+            <label for="intereses">Hogar</label>
+            <input type="checkbox" value="Jugueteria"> 
+            <label for="intereses">Jugueteria</label>
+            <input type="checkbox" value="Vida sana"> 
+            <label for="intereses">Vida sana</label>
+
+        </label>
+        <div class="">
+        <label for="foto"> 
+            <h3>Foto de perfil</h3>
+            <input type="file" accept=".jpg">
+        </label>
+        </div>
+        <label for="password" class="register__form--password"> Contraseña
+            <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
+        </label>
+        <div class="register__form--buttons">
+        <button type="submit" class="button--enviar">
+            <a href="/">Enviar</a>
+        </button>
+        <button type="reset" class="button--reset" >
+            Borrar
+        </button>
+    </div>
+
+    </form>
+</div>
 </body>
 </html>

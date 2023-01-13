@@ -1,0 +1,17 @@
+.login__title{
+    display: flex;
+    gap: 5px;
+    color: var(--celeste);
+    margin: 10px 20px;
+    align-items: center;
+
+}
+.login__title i{
+    border: 2px solid var(--celeste);
+    border-radius: 50%;
+    width: auto;
+    height: 100%;
+    padding: 3px;
+    color: white;
+    background-color: var(--celeste);
+}
