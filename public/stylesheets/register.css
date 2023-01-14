@@ -1,5 +1,11 @@
-.form{
-    display: block;
-    border: solid 1px grey;
-    border-radius: 5px;
+
+
+/*TABLET*/
+@media(min-width:361px){
+
+    .form__conteiner{
+        width: 70%;
+        margin: 0 auto;
+
+    }
 }

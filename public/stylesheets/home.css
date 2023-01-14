@@ -8,10 +8,12 @@ body{
 .home__main__section{
 display: flex;
 flex-wrap: wrap;
+align-items: flex-start;
 }
 .home__main__section__article{
     margin-bottom: 10px;
     background-color: #fff;
+    
    
 
 
@@ -80,10 +82,13 @@ padding: 15px 0;
 @media(min-width:361px){
     .home__main__section{
         justify-content: space-between;
+        align-items: flex-start;
+        
     }
     .home__main__section__article{
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
         width: 45%;
+    
         }
     .home__main__section__article--info h5{
         

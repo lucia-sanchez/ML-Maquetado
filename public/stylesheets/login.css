@@ -2,7 +2,7 @@
     display: flex;
     gap: 5px;
     color: var(--celeste);
-    margin: 10px 20px;
+    margin-bottom: 10px;
     align-items: center;
 
 }
@@ -14,4 +14,14 @@
     padding: 3px;
     color: white;
     background-color: var(--celeste);
+}
+/*TABLET*/
+@media(min-width:361px){
+    .login__title{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    
 }

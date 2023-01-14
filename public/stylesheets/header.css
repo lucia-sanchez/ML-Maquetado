@@ -10,10 +10,12 @@
 display: flex;
 justify-content: space-between;
 padding: 10px 20px;
+
 }
 
 .header__logo{
     width: 50%;
+
     
 }
 .header__buscador--box{
@@ -87,6 +89,7 @@ position: relative;
         flex-wrap: wrap;
         padding: 20px;
         align-items: center;
+        justify-content: center;
         
     }
     .header_burger-menu{
@@ -95,9 +98,17 @@ position: relative;
     
     .header__nav__container{
         width: 60%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0;
     }
     .header__text{
-        width: 32%;
+        width: 33%;
+        margin-left: 30px;
+        display: flex;
+     
+        
 
     }
     .header__contenedor__menu{
@@ -126,5 +137,18 @@ position: relative;
 
 /*DESKTOP*/
 @media(min-width:769px){
-   
+    .header__nav__container{
+        width: 72%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .header__text{
+        width: 25%;
+        margin-left: 10px;
+        display: flex;
+        position: relative;
+        top: -20px;
+        left: 20px;
+}
 }

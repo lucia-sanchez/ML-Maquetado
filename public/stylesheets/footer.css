@@ -2,17 +2,21 @@
 text-align: center;
 margin-top: 50px;
 }
-#icon-card{
+.footer__section i:hover{
+    color: var(--azul);
+    transform: scale(1.2);
+}
+.icon-card{
     color: var(--celeste);
     font-size: 2em;
     margin-bottom: 10px;
 }
-#icon-gift{
+.icon-gift{
     color: var(--celeste);
     font-size: 2em;
     margin-bottom: 10px;
 }
-#icon-user{
+.icon-user{
     color: var(--celeste);
     font-size: 2em;
     margin-bottom: 10px;
